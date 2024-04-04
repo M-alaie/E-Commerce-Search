@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+li{
+    @apply list-none
+}
+
+.btn{
+    @apply px-5 py-[10px] text-[#ccc] border-none outline-none bg-transparent cursor-pointer mr-1
+}
