@@ -15,5 +15,33 @@ li{
 }
 
 .btn{
-    @apply px-5 py-[10px] text-[#ccc] border-none outline-none bg-transparent cursor-pointer mr-1
+    @apply px-4 py-[6px] rounded-md  font-normal text-black border border-solid border-[#ccc] outline-none bg-transparent cursor-pointer mr-1 hover:bg-gray-300/30
+}
+
+h1,h2,h3,h4,h5,h6{
+    @apply my-8  font-semibold
+}
+
+h1{
+    @apply font-extrabold text-2xl leading-relaxed ;
+}
+h2{
+    @apply font-bold text-xl leading-normal
+}
+img{
+    @apply w-full h-1/2  object-cover rounded-md
+}
+
+.sidebarTitle{
+    @apply font-medium text-gray-900/90  text-lg my-1 capitalize text-center
+}
+input[type="radio"]{
+    accent-color: #2196f3;;
+}
+input[type='radio']:checked{
+    color: gray;
+    background: red;
+    border: none;
+    
+
 }

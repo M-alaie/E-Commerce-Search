@@ -6,6 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'gray-150':'#ccc',
+        'star':'#d5ab55'
+      },
+      gridTemplateColumns:{
+        'layout':'15% 85%'
+      },
+      width:{
+        'radio':'20px'
+      },
+      height:{
+        'radio':'20px'
+      }
+
    
     },
   },
